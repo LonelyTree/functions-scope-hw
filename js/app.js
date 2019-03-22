@@ -64,29 +64,30 @@
 
 //HUNGRY FOR MORE//
 
-// 2. Write a function `insertDash` that accepts 
-// a number as a parameter and returns a string with 
-// a dash inserted between any consecutive
-//  **odd numbers**. There should not be a dash at 
-//  the end, it goes only between numbers.
-// ```javascript
-// console.log(insertDash(454793));
+//INSERT DASH//
 
-function insertDash(num) {
+// function insertDash(num) {
     
-    let arr = num.toString().split("")
-    const result = []
-    for(let i=0; i <= arr.length; i++){
-        if(((arr[i-1])%2 ===1)&&(arr[i]%2 ===1)){
-            result.push("-",arr[i]);
-        } else {
-            result.push(arr[i])
-        }
-    }
-    console.log(result.join(""))
-}
+//     let arr = num.toString().split("")
+//     const result = []
+//     for(let i=0; i <= arr.length; i++){
+//         if(((arr[i-1])%2 ===1)&&(arr[i]%2 ===1)){
+//             result.push("-",arr[i]);
+//         } else {
+//             result.push(arr[i])
+//         }
+//     }
+//     console.log(result.join(""))
+// }
 
-insertDash(5555777777999993333);
-rv = 10
-let raw = rv.toString().split("")
-console.log(raw)
+// insertDash(5555777777999993333);
+
+//REVERSE STRING//
+
+// function reverseString(string) {
+// let resString = "";
+// for(let i = string.length-1; i >= 0; i--){
+//     resString += string[i];
+//     }return resString;
+// }
+// console.log(reverseString("Test"))
