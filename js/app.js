@@ -22,3 +22,12 @@ return sum;
 }
 
 console.log(sumDigits(11111))
+
+//PYTHAGORAS//
+
+function aBC(a,b){
+    c=(a**2 + b**2);
+    Math.sqrt(c);
+    return c;
+}
+aBC(1,2);
