@@ -91,3 +91,15 @@
 //     }return resString;
 // }
 // console.log(reverseString("Test"))
+
+//PALINDROME +//
+
+function checkPalindrome(word) {
+    if(word.toLowerCase().replace(/ /g,'') === word.toLowerCase().replace(/ /g,'').split("").reverse().join(""))
+    {
+    return true
+    } 
+    return false
+    }
+    
+    console.log(checkPalindrome("Ha      nn ah"))
